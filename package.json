@@ -1,20 +1,10 @@
-{"type":"module",
-  "name": "cli",
+{
+  "type": "module",
+  "name": "cli-tool",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "bin": { "mycli": "./index.js" },
   "dependencies": {
     "chalk": "^5.4.1",
-    "commander": "^14.0.0",
-    "express": "^5.1.0"
-  },
-  "bin":{ 
-    "mycli":"./index.js"
+    "commander": "^14.0.0"
   }
 }
